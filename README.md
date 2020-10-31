@@ -1,5 +1,5 @@
-# CGRA OpenGL Base Project
-
+# CGRA OpenGL Project - A Simple Position Based Dynamics Simulation
+![](capture.gif)
 # Requirements
 
 The project requires [CMake](https://cmake.org/) to build before compiling. The recommended way to build to project is to create a build folder then using CMake to create to project inside it. Make sure that you are creating the build folder in the same directory as the work folder.
