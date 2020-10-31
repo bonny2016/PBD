@@ -1,0 +1,10 @@
+^C:\USERS\BONNY\DESKTOP\VUW\COURSES\350\ESSAY\CGRA350_FRAMEWORK\WORK\EXT\GLM\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/bonny/Desktop/vuw/courses/350/essay/CGRA350_Framework/work -BC:/Users/bonny/Desktop/vuw/courses/350/essay/CGRA350_Framework/work --check-stamp-file C:/Users/bonny/Desktop/vuw/courses/350/essay/CGRA350_Framework/work/ext/glm/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

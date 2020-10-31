@@ -1,0 +1,60 @@
+﻿  pbd.cpp
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\detail/type_vec2.hpp(45,1): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\detail/type_vec2.hpp(205): message : see reference to class template instantiation 'glm::vec<2,T,P>' being compiled
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\detail/type_vec2.hpp(46,1): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\detail/type_vec2.hpp(47,1): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\detail/type_vec3.hpp(45,1): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\detail/type_vec3.hpp(226): message : see reference to class template instantiation 'glm::vec<3,T,P>' being compiled
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\detail/type_vec3.hpp(46,1): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\detail/type_vec3.hpp(47,1): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\detail/type_vec4.hpp(45,1): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\detail/type_vec4.hpp(271): message : see reference to class template instantiation 'glm::vec<4,T,P>' being compiled
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\detail/type_vec4.hpp(46,1): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\detail/type_vec4.hpp(47,1): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\gtc\bitfield.inl(88,46): warning C4310: cast truncates constant value
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\gtc\bitfield.inl(89,46): warning C4310: cast truncates constant value
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\gtc\bitfield.inl(90,46): warning C4310: cast truncates constant value
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\gtc\bitfield.inl(92,46): warning C4310: cast truncates constant value
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\gtc\bitfield.inl(93,46): warning C4310: cast truncates constant value
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\gtc\bitfield.inl(94,46): warning C4310: cast truncates constant value
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\gtc\bitfield.inl(96,46): warning C4310: cast truncates constant value
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\gtc\bitfield.inl(97,46): warning C4310: cast truncates constant value
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\gtc\bitfield.inl(98,46): warning C4310: cast truncates constant value
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\gtc\bitfield.inl(100,46): warning C4310: cast truncates constant value
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\gtc\bitfield.inl(101,46): warning C4310: cast truncates constant value
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\gtc\bitfield.inl(102,46): warning C4310: cast truncates constant value
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\gtc\bitfield.inl(175,46): warning C4310: cast truncates constant value
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\gtc\bitfield.inl(176,46): warning C4310: cast truncates constant value
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\gtc\bitfield.inl(177,46): warning C4310: cast truncates constant value
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\gtc\bitfield.inl(178,46): warning C4310: cast truncates constant value
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\gtc\bitfield.inl(180,46): warning C4310: cast truncates constant value
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\gtc\bitfield.inl(181,46): warning C4310: cast truncates constant value
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\gtc\bitfield.inl(182,46): warning C4310: cast truncates constant value
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\gtc\bitfield.inl(183,46): warning C4310: cast truncates constant value
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\gtc\bitfield.inl(185,46): warning C4310: cast truncates constant value
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\gtc\bitfield.inl(186,46): warning C4310: cast truncates constant value
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\gtc\bitfield.inl(187,46): warning C4310: cast truncates constant value
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\gtc\bitfield.inl(188,46): warning C4310: cast truncates constant value
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\gtc\quaternion.hpp(55,1): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\ext\glm\gtc\quaternion.hpp(130): message : see reference to class template instantiation 'glm::tquat<T,P>' being compiled
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\src\pbd.h(47,24): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\src\pbd.h(48,24): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\src\pbd.h(49,24): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+pbd.cpp(136,14): warning C4456: declaration of 'k' hides previous local declaration
+pbd.cpp(108,8): message : see declaration of 'k'
+pbd.cpp(136,17): warning C4305: 'initializing': truncation from 'double' to 'float'
+pbd.cpp(137,18): warning C4456: declaration of 'k_tap' hides previous local declaration
+pbd.cpp(109,8): message : see declaration of 'k_tap'
+  base.vcxproj -> C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\bin\Debug\base.exe

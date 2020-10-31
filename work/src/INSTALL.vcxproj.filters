@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\bonny\Desktop\vuw\courses\350\essay\CGRA350_Framework\work\CMakeFiles\3378905c2cd4362a7a8529c09abdaef9\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{43BD6D98-B07B-36ED-B051-A1B879160896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{F3D1B78A-3CFB-3262-B3AA-75428EC21811}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
