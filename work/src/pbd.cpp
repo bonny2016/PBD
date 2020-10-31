@@ -31,65 +31,7 @@ void PBD::init()
 
 		o = newP;
 	}
-	/*
-	// cube
-	{
-		float s = 0.5f;
-		glm::vec3 ps[8] = {
-			{ -s, -s, -s },
-			{  s, -s, -s },
-			{  s, -s,  s },
-			{ -s, -s,  s },
-
-			{ -s, s, -s },
-			{ s,  s, -s },
-			{ s,  s,  s },
-			{ -s, s,  s },
-		};
-
-		auto q = glm::rotation(glm::vec3(0.0, 1.0, 0.0), glm::normalize(glm::vec3(0.1, 0.7, 0.3)));
-
-		std::vector<int> indices;
-		for (int i = 0; i < 8; ++i) {
-			indices.push_back(_points.size());
-			_points.push_back(q * ps[i] + glm::vec3(2.0f, 2.0f, 0.0f));
-		}
-
-		auto line = [&](int a, int b) {
-			DistanceConstraint dc;
-			dc.index0 = indices[a];
-			dc.index1 = indices[b];
-			dc.length = glm::distance(_points[dc.index0], _points[dc.index1]);
-			_dconstraints.push_back(dc);
-		};
-
-		for (int i = 0; i < 4; ++i) {
-			line(i, (i + 1) % 4);
-		}
-		for (int i = 0; i < 4; ++i) {
-			line(4 + i, 4 + (i + 1) % 4);
-		}
-		for (int i = 0; i < 4; ++i) {
-			line(i, i + 4);
-		}
-
-		//for (int i = 0; i < 4; ++i) {
-		//	line(i, 4 + (i + 2) % 4);
-		//}
-		for (int i = 0; i < 4; ++i) {
-			line(i, 4 + (i + 1) % 4);
-		}
-		for (int i = 0; i < 4; ++i) {
-			line(i, 4 + (i + 3) % 4);
-		}
-
-		line(0, 2);
-		line(1, 3);
-		line(4, 6);
-		line(5, 7);
-	}
-
-	*/
+	
 	m_mass.resize(m_points.size(), 1.0f);
 	m_pointsVelocity.resize(m_points.size());
 	m_pointsMoved.resize(m_points.size());
@@ -97,7 +39,7 @@ void PBD::init()
 }
 
 void PBD::update() {
-	// update
+	// update position
 	float dt = 1.0f / kFPS;
 
 	for (int i = 0; i < m_points.size(); ++i) {
@@ -130,8 +72,7 @@ void PBD::update() {
 			m_pointsMoved[index1] += delta_p1 * k_tap;
 		}
 
-		// floor
-
+		// floor constraint
 		{
 			float k = 0.3;
 			float k_tap = 1.0f - std::pow(1.0f - k, 1.0f / N);
